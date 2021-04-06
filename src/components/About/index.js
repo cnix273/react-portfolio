@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+import profPic from "../Assets/Me.jpg";
+
 const About = () => {
     return (
         <div class="container-fluid" id="containerOne">
@@ -13,7 +15,7 @@ const About = () => {
 
             <main class="row">
                 <div class="aboutMeMain col-sm-10">
-                    <img class="contactImage img-thumbnail float-left" src="assets/images/Me.jpg" alt="Photo of Cameron"/>
+                    <img class="contactImage img-thumbnail float-left" src={profPic} alt="Photo of Cameron"/>
                     <p>I am a recent graduate of UCLA undergrad with a major in physiological science. I was on the pre-med track throughout my collegiate career, garnering an internship in UCLA's Ronald Raegan Medical Center starting my sophomore year as well as securing a showing position with a Plastic Surgeon my junior year.</p>
                     <p>I find joy in learning and exploring different academic disciplines, and have recently discovered a love of coding. I am currently working for an interior design company, launching ecommerce for their home goods and wellness store, while simultaneously enrolled in UCLA Extension's Full Stack Coding Bootcamp.</p>
                     <p>I am an outgoing, curious, and passionate 22-year-old living in LA. I have alwyas been drawn towards and excelled at mathematics and problem solving, solving rubik's cubes or jigsaw and sudoku puzzles for fun when I was growing up. This innate skill set gives me a natural propensity for coding.</p>

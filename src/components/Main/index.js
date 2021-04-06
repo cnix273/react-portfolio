@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import Nav from "../Nav";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
 import About from "../About"
@@ -53,6 +54,8 @@ class Search extends Component {
   render() {
     return (
       <div>
+        <Nav/>
+        <br/>
         <About/>
         <Portfolio/>
         <Contact
