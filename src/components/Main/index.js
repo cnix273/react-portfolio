@@ -3,9 +3,10 @@ import React, { Component } from "react";
 import Nav from "../Nav";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
-import About from "../About"
+import About from "../About";
 
 import "./style.css";
+import Skills from "../Skills";
 
 class Search extends Component {
   state = {
@@ -53,10 +54,11 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
+      <div className="body">
         <Nav/>
         <br/>
         <About/>
+        <Skills/>
         <Portfolio/>
         <Contact
           name={this.state.name}
@@ -71,3 +73,4 @@ class Search extends Component {
 }
 
 export default Search;
+ 
