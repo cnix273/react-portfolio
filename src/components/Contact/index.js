@@ -1,6 +1,10 @@
 import React from "react";
 import "./style.css";
 
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
+
 const Contact = (props) => {
     return (
         <div className="container-fluid" id ="containerThree">
@@ -11,6 +15,15 @@ const Contact = (props) => {
                 </div>
             </header>
 
+            <div className="contactContent">
+                <h5>I'm always open to new projects to collaborate on, so if you're in need of a full-stack JavaScript developer, please get in touch!</h5>
+                    
+                    <FaLinkedin href="https://www.linkedin.com/in/cameronnix/" size="5em" className="contactIcon" id="linkedin"/>
+                    <FaGithub href="https://github.com/cnix273" size="5em" className="contactIcon" id="github"/>
+                    <FiMail href="mailto:camerondeverenix@gmail.com" size="5em" className="contactIcon" id="email"/>
+
+            </div>
+{/* 
             <div className="row">
                 <div className="contactMain col-sm-10">
                     <form className="form-group">
@@ -58,7 +71,7 @@ const Contact = (props) => {
                         data-target="#submissionModal"
                     >Submit</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
