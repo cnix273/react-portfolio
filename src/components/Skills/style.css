@@ -1,0 +1,54 @@
+#skillsContainer {
+    background-color: rgb(71, 183, 252);
+    width: 90%;
+    background: linear-gradient(to bottom, white 75%, rgb(0, 102, 255) 0%)
+}
+
+h5, p {
+    /* color: grey; */
+    /* text-shadow: 1px 1px darkgray; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 10px
+}
+
+.profile-card {
+    background-color: rgb(167, 234, 255);
+    /* height: 700px; */
+    width: 350px;
+    padding: 30px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
+    margin: 10px;
+    /* margin-bottom: -250px;
+    margin-top: -100px;
+
+    transform: translateY(100px); */
+    text-align: center;
+    color: white;
+}
+
+#engineer {
+    Display: block;
+    margin-left: auto!important;
+    margin-right: 30px!important;
+}
+
+#webdev{
+    Display: block;
+    margin-left: 30px!important;
+    margin-right: auto!important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+}
