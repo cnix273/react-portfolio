@@ -4,16 +4,14 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
-// import "App.css";
-
 function App() {
   return (
     <Router>
       <div>
         <Wrapper>
-          <Main />
+          <Main/>
         </Wrapper>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );
