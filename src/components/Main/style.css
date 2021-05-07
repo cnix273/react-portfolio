@@ -2,35 +2,12 @@
     box-sizing: border-box;
 }
 
-/* Styling for media 576px and greater */
-
 .body {
     /* Typography */
     font-size: 18px;
     line-height: 27px;
     font-family: 'Open Sans', sans-serif;
-
-    /* Visual*/
-    background-color: rgb(126, 221, 250, 0.5);
 }
-
-/* Main Content Styling */
-.header {
-    margin-top: 20px;
-}
-
-/* #sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-} */
-
-small {
-    /* Typography */
-    color: rgb(51, 140, 167);
-}
-
-
 
 /* Responsive Styling for screens smaller than 576px */
 @media screen and (max-width: 575px) {
