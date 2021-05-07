@@ -63,10 +63,13 @@ const Skills = () => {
                     </p>
                 </div>
             </div>
+
+            {/* <br></br> */}
+
             <div className="row">
                 <div className="col-md-10 offset-md-1">
-                    <div className="row text-center">
-
+                    <div className="row text-center languages">
+    
                         <div className="col">
                             <div className="skill-bar-title">
                                 <FaHtml5 size="3em"/>
@@ -108,6 +111,8 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+
+            {/* <br></br> */}
         </div>
     );
 };
