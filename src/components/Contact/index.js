@@ -5,27 +5,26 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 
-const Contact = (props) => {
+const Project = (props) => {
     return (
-        <div className="container-fluid" id ="containerThree">
+        <div className="container-fluid" id ="contactContainer">
             <header className="row">
-                <div className="header col-sm-10">
-                    <h2>CONTACT</h2>
-                    <hr/>
+                <div className="col-sm-12">
+                    <h2 id="contactHead">CONTACT</h2>
                 </div>
             </header>
 
             <div className="contactContent">
                 <h5>I'm always open to new projects to collaborate on, so if you're in need of a full-stack JavaScript developer, please get in touch!</h5>
-                    
-                    <FaLinkedin href="https://www.linkedin.com/in/cameronnix/" size="5em" className="contactIcon" id="linkedin"/>
-                    <FaGithub href="https://github.com/cnix273" size="5em" className="contactIcon" id="github"/>
-                    <FiMail href="mailto:camerondeverenix@gmail.com" size="5em" className="contactIcon" id="email"/>
-
+                <div id="icons">
+                    <a href="https://www.linkedin.com/in/cameronnix/"><FaLinkedin size="5em" className="contactIcon"/></a>
+                    <a href="https://github.com/cnix273"><FaGithub size="5em" className="contactIcon"/></a>
+                    <a href="mailto:camerondeverenix@gmail.com"><FiMail size="5em" className="contactIcon"/></a>
+                </div>
             </div>
 {/* 
             <div className="row">
-                <div className="contactMain col-sm-10">
+                <div className="contactMain col-sm-12">
                     <form className="form-group">
                         <label for="inputName">NAME</label>
                         <input
@@ -76,4 +75,4 @@ const Contact = (props) => {
     );
 };
 
-export default Contact;
+export default Project;

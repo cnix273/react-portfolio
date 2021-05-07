@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Nix Employee Directory 2021</span>
+      <span>Made by Cameron Nix. Copyright © | 2021</span>
     </footer>
   );
 }

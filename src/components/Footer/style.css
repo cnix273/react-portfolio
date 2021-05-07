@@ -1,6 +1,5 @@
 .footer {
   min-height: 100px;
-  background: lightblue;
   position: relative;
 }
 
@@ -10,8 +9,9 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: blue;
+  background: gray;
   color: aliceblue;
+  text-align: center;
 }
 
 /* Footer Styling */
