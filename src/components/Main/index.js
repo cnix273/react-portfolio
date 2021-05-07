@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Nav from "../Nav";
-import Portfolio from "../Portfolio";
+import Project from "../Project";
 import Contact from "../Contact";
 import About from "../About";
 
@@ -59,7 +59,7 @@ class Search extends Component {
         <br/>
         <About/>
         <Skills/>
-        <Portfolio/>
+        <Project/>
         <Contact
           name={this.state.name}
           email={this.state.email}
