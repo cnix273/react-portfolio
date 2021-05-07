@@ -6,15 +6,9 @@ import profPic from "../Assets/IMG_1253.jpg";
 const About = () => {
     return (
         <div className="container-fluid" id="aboutContainer">
-            <header className="row">
-                <div className="header col-sm-12">
-                    <h2>ABOUT ME</h2>
-                    <hr/>
-                </div>
-            </header>
             <div className="row">
-                <div className="header col-sm-12">
-                        <h3 className="title">FRONT END & FULL STACK WEB DEVELOPER</h3>
+                <div className="col-sm-12">
+                        <h2 className="title">FRONT END & FULL STACK WEB DEVELOPER</h2>
                         {/* <h3 class="subtitle" id="element" data-typeit-id="8114449">I write code and build beautifully simple applications.<span class="ti-cursor with-delay" style="display: inline; color: rgb(33, 37, 41); font: 300 28.8px / 34.56px Lato, sans-serif; margin: 0px -6.32031px 0px -2.32031px;">|</span></h3> */}
                 </div>
             </div>
@@ -26,14 +20,14 @@ const About = () => {
                     <p>I am an outgoing, curious, and passionate 22-year-old living in LA. I have alwyas been drawn towards and excelled at mathematics and problem solving, solving rubik's cubes or jigsaw and sudoku puzzles for fun when I was growing up. This innate skill set gives me a natural propensity for coding.</p>
                     <p>I can't wait to fruther explore this newfound passion and to grow my coding skill set and portfolio each day. I am so excited for the opportunities that lie ahead that will enable me to turn this passion into a lifelong career.</p>
                     <p>Take a look at my portfolio page to discover some of my favorite coding projects I've completed recently. I also have a contact page for business inquiries. I look forward to growing my network and experience through helping others to build personal application or grow their business.</p>
-                    <br/>
+                    {/* <br/>
                     <h5 className="links"><strong>Professional Links</strong></h5>
                     <hr/>
                     <a className="profLinks" href="https://github.com/cnix273">   GitHub</a>
                     <br/>
                     <a className="profLinks" href="https://www.linkedin.com/in/cameron-nix-a74aa1109/">   LinkedIn</a>
                     <br/>
-                    <a className="profLinks" href ="assets/Resume.pdf" download>  Resume</a>
+                    <a className="profLinks" href ="assets/Resume.pdf" download>  Resume</a> */}
                 </div>
             </main>
         </div>
