@@ -1,12 +1,12 @@
 #skillsContainer {
-    background-color: rgb(71, 183, 252);
+    /* background-color: rgb(71, 183, 252); */
     width: 90%;
-    background: linear-gradient(to bottom, white 75%, rgb(0, 102, 255) 0%)
+    background: linear-gradient(to bottom, white 75%, rgb(201, 201, 201) 0%);
+    margin-bottom: 50px;
 }
 
 h5, p {
     /* color: grey; */
-    /* text-shadow: 1px 1px darkgray; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     padding: 10px
@@ -21,10 +21,6 @@ h5, p {
     border-radius: 0;
     box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
     margin: 10px;
-    /* margin-bottom: -250px;
-    margin-top: -100px;
-
-    transform: translateY(100px); */
     text-align: center;
     color: white;
 }
@@ -51,4 +47,24 @@ h5, p {
 
 .card-title {
     font-weight: 700;
+}
+
+.languages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 845px) {
+    
+    #engineer {
+        Display: block;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    
+    #webdev{
+        Display: block;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
 }
