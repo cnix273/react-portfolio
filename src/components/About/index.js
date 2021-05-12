@@ -15,10 +15,10 @@ const About = () => {
             <main className="row">
                 <div className="col-sm-12">
                     <img className="img-thumbnail" id="mainImage" src={profPic} alt="Cameron Nix headshot"/>
-                    <p>An eager, solutions-driven software developer with a passion for creating beautiful &amp; scalable web applications built on JavaScript.</p>
+                    <p>A solutions-driven software developer with a passion for creating beautiful &amp; scalable web applications built on JavaScript.</p>
                     {/* <p>A life-long learner who finds joy in problem solving.</p> */}
-                    <p>An outgoing, driven, &amp; empathetic 23-year-old with a life-long ennthusiasm for problem-solving </p>
-                    <p>An innate leader, communicator, collaborator, &amp; team player.</p>
+                    <p>An enthusiastic &amp; driven UCLA grad with a life-long affinity for solving problems. </p>
+                    <p>A natural leader and empathetic team player with strong communication skills &amp; a desire to work with and learn from others.</p>
                     {/* <br/>
                     <h5 className="links"><strong>Professional Links</strong></h5>
                     <hr/>
