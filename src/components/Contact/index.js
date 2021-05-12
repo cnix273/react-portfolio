@@ -4,6 +4,9 @@ import "./style.css";
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
+import { IoDocumentTextOutline } from 'react-icons/io5';
+
+import Resume from "../Assets/Resume.pdf";
 
 const Project = (props) => {
     return (
@@ -14,12 +17,15 @@ const Project = (props) => {
                 </div>
             </header>
 
-            <div className="contactContent">
-                <h5>I'm always open to new projects to collaborate on, so if you're in need of a full-stack JavaScript developer, please get in touch!</h5>
-                <div id="icons">
-                    <a href="https://www.linkedin.com/in/cameronnix/"><FaLinkedin size="5em" className="contactIcon"/></a>
-                    <a href="https://github.com/cnix273"><FaGithub size="5em" className="contactIcon"/></a>
-                    <a href="mailto:camerondeverenix@gmail.com"><FiMail size="5em" className="contactIcon"/></a>
+            <div className="row contactContent">
+                <div className="col-sm-12">
+                    <h5>I'm always open to new projects to collaborate on, so if you're in need of a full-stack JavaScript developer, please get in touch!</h5>
+                    <div id="icons">
+                        <a href={ Resume } download><IoDocumentTextOutline size="5em" className="contactIcon"/></a>
+                        <a href="https://github.com/cnix273"><FaGithub size="5em" className="contactIcon"/></a>
+                        <a href="https://www.linkedin.com/in/cameronnix/"><FaLinkedin size="5em" className="contactIcon"/></a>
+                        <a href="mailto:camerondeverenix@gmail.com"><FiMail size="5em" className="contactIcon"/></a> 
+                    </div>
                 </div>
             </div>
 {/* 
