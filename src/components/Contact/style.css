@@ -19,46 +19,48 @@
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 50px;
+    box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
 }
 
 .contactIcon {
     margin: 30px;
     color: white;
+    font-size: 20px;
 }
 
-.form-group {
+/* .form-group { */
     /*Stucture*/
-    padding-left: 20px;
+    /* padding-left: 20px;
     padding-bottom: 10px;
     width: 80%;
-}
+} */
 
-.btn {
+/* .btn { */
     /* Structure */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;
     margin-left: 10px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; */
 
     /* Visual */
-    background-color: rgb(126, 221, 250);
+    /* background-color: rgb(126, 221, 250); */
     
-    /* Tittypography */
-    color: white;
+    /* Typography */
+    /* color: white;
     font-weight: bold;
-}
+} */
 
-.form-group {
+/* .form-group {
     color: grey;
-}
+} */
 
 /* Modal Styling */
 
-#submissionModal button {
+/* #submissionModal button {
     margin-bottom: 0px;
-}
+} */
 
 .contactContent {
     display: inline-block;
@@ -66,4 +68,14 @@
     margin-right: auto!important;
     text-align: center;
     color: white;
+}
+
+@media screen and (max-width: 575px) {
+    #icons {
+        background-color: rgb(201, 201, 201);
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        width: 180px;
+    }
 }
