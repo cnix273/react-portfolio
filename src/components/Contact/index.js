@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { IoDocumentTextOutline } from 'react-icons/io5';
 
-import Resume from "../Assets/Resume.pdf";
+import Resume from "../Assets/Resume_updated.pdf";
 
 const Project = (props) => {
     return (
