@@ -4,9 +4,9 @@ import Nav from "../Nav";
 import Project from "../Project";
 import Contact from "../Contact";
 import About from "../About";
+import Skills from "../Skills";
 
 import "./style.css";
-import Skills from "../Skills";
 
 class Search extends Component {
   state = {
@@ -56,7 +56,6 @@ class Search extends Component {
     return (
       <div className="body">
         <Nav/>
-        <br/>
         <About/>
         <Skills/>
         <Project/>

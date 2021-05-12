@@ -11,9 +11,11 @@
 
 /* Responsive Styling for screens smaller than 576px */
 @media screen and (max-width: 575px) {
-    .header, .portfolioMain, .contactMain, .aboutMeMain {
+    #aboutContainer, #skillsContainer, #projectContainer, #contactContainer {
         /*Structure*/
-        width: 95% !important;
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .form-control {
