@@ -47,17 +47,15 @@ const Skills = () => {
                         Languages I speak:
                     </h5>
                     <p className="card-text">
-                        CSS3, HTML5, Sass, JavaScript, React, Angular 2+
+                        CSS3, HTML5, JavaScript, React, Angular 2+
                     </p>
                     <h5 className="card-title">
                         Dev Tools:
                     </h5>
                     <p className="card-text">
                         Bootstrap<br></br>
-                        Codepen<br></br>
                         Github<br></br>
                         Gitlab<br></br>
-                        Material Design<br></br>
                         Terminal<br></br>
                         VSCode<br></br>
                     </p>
