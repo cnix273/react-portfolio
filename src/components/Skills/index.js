@@ -12,52 +12,53 @@ const Skills = () => {
     return (
         <div className="container-fluid" id="skillsContainer">
             <div className="row cards">
-                <div className="profile-card" id="engineer">
-                    <IoCodeSlashOutline className="icon" size="5em"/>
-                    
-                    <h5 className="card-title">Software Engineer</h5>
-                    <p className="card-text">Building practical and secure server-side applications to meet your business
-                        and personal needs.</p>
-                    <h5 className="card-title">
-                        Technologies I use:
-                    </h5>
-                    <p className="card-text">
-                        Node.js, Express.js, MySQL/PostgreSQL/MSSQL &amp; MongoDB, Java, Spring, Python, Flask
-                    </p
-                    ><h5 className="card-title">
-                        Dev Tools:
-                    </h5>
-                    <p className="card-text">
-                        Eclipse &amp; IntelliJ<br></br>
-                        Sequelize &amp; Mongoose<br></br>
-                        Database Architecting<br></br>
-                        Application Design<br></br>
-                        Secure Authentication<br></br>
-                        Payment Processing<br></br>
-                    </p>
-                </div>
-                <div className="profile-card" data-speed="2" id="webdev">
+            <div className="profile-card" data-speed="2" id="webdev">
                     <IoIosGlobe className="icon" size="5em"/>
 
                     <h5 className="card-title">Web Developer</h5>
                     <p className="card-text">
-                        I like to build projects from scratch, and I can make your designs a reality.
+                        Build dynamic, efficient applications with elegant, sleak &amp; captivating designs.
                     </p>
                     <h5 className="card-title">
                         Languages I speak:
                     </h5>
                     <p className="card-text">
-                        CSS3, HTML5, JavaScript, React, Angular 2+
+                        JavaScript, React, jQuery, HTML5, CSS3, Handlebars
                     </p>
                     <h5 className="card-title">
                         Dev Tools:
                     </h5>
                     <p className="card-text">
+                        HTTP &amp; REST APIs<br></br>
                         Bootstrap<br></br>
+                        Material-UI<br></br>
                         Github<br></br>
-                        Gitlab<br></br>
                         Terminal<br></br>
                         VSCode<br></br>
+                    </p>
+                </div>
+                <div className="profile-card" id="engineer">
+                    <IoCodeSlashOutline className="icon" size="5em"/>
+                    
+                    <h5 className="card-title">Software Engineer</h5>
+                    <p className="card-text">
+                        Create practical &amp; secure server-side applications that meet all your business and personal needs.
+                    </p>
+                    <h5 className="card-title">
+                        Technologies I use:
+                    </h5>
+                    <p className="card-text">
+                        Node.js, Express.js, MySQL &amp; MongoDB
+                    </p
+                    ><h5 className="card-title">
+                        Dev Tools:
+                    </h5>
+                    <p className="card-text">
+                        Sequelize &amp; Mongoose<br></br>
+                        Secure Authentication<br></br>
+                        Object Oriented Programming<br></br>
+                        Application Design<br></br>
+                        Database Architecting<br></br>
                     </p>
                 </div>
             </div>

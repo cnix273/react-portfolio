@@ -1,8 +1,9 @@
 #skillsContainer {
-    /* background-color: rgb(71, 183, 252); */
     width: 90%;
     background: linear-gradient(to bottom, white 75%, rgb(201, 201, 201) 0%);
     margin-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 h5, p {
@@ -15,7 +16,7 @@ h5, p {
 .profile-card {
     background-color: rgb(167, 234, 255);
     /* height: 700px; */
-    width: 350px;
+    width: 375px;
     padding: 30px;
     border: 0;
     border-radius: 0;
@@ -25,13 +26,13 @@ h5, p {
     color: white;
 }
 
-#engineer {
+#webdev {
     Display: block;
     margin-left: auto!important;
     margin-right: 30px!important;
 }
 
-#webdev{
+#engineer {
     Display: block;
     margin-left: 30px!important;
     margin-right: auto!important;
@@ -54,15 +55,34 @@ h5, p {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 1033px) {
     
-    #engineer {
+    #webdev, #engineer {
+        Display: block;
+        margin-left: 25%!important;
+        margin-right: 25%!important;
+        width: 450px!important;
+    }
+
+    #webdev {
+        margin-bottom: 20px;
+    }
+
+    #skillsContainer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 833px) {
+    
+    #webdev {
         Display: block;
         margin-left: auto!important;
         margin-right: auto!important;
     }
     
-    #webdev{
+    #engineer {
         Display: block;
         margin-left: auto!important;
         margin-right: auto!important;
