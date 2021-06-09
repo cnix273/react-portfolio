@@ -16,6 +16,8 @@ const About = () => {
                 <div className="col-sm-12">
                     <img className="img-thumbnail" id="mainImage" src={profPic} alt="Cameron Nix headshot"/>
                     {/* <p>A solutions-driven software developer with a passion for creating beautiful &amp; scalable web applications built on JavaScript.</p> */}
+                    <p><a href="https://github.com/cnix273">https://github.com/cnix273</a> &emsp; &emsp; <a href="mailto:camerondeverenix@gmail.com">camerondeverenix@gmail.com</a></p>
+                    <br></br>
                     <p>An innovative &amp; solutions-driven software developer with a passion for creating beautiful, responsive &amp; scalable web applications.</p>
                     {/* <p>A life-long learner who finds joy in problem solving.</p> */}
                     <p>An enthusiastic &amp; driven UCLA graduate with a life-long affinity for architecting thoughtful, straightfoward solutions to complex problem.</p>
