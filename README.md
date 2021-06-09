@@ -7,7 +7,7 @@ This serves as a professional Portfolio for Cameron Nix.
 The portfolio includes.
 * An introduction
 * A section highlighting Cameron's technological skillset including known languages and development tools
-* A projects section which includes depictions and descriptions of projects are well as github and live application links
+* A projects section which includes depictions and descriptions of projects as well as github and live application links
 * A contact section including linkedin, email, github, and resume links
 
 The applicaiton is built using React, JSX, Javascript, CSS, and Bootstrap.
