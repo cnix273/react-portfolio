@@ -30,9 +30,10 @@ h1.title{
 
     /* Display */
     display: block;
-    margin: 30px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    
     width: 400px;
     height: auto!important;
 }
@@ -40,6 +41,12 @@ h1.title{
 p {
     padding: 15px;
     color: grey;
+}
+
+a {
+    color: grey!important;
+    font-size: 15px;
+    
 }
 
 /* .links {
