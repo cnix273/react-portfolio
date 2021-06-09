@@ -23,7 +23,7 @@ const Portfolio = () => {
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
 
                     <p className="projectDescription">
-                        A react-based web application that gets saved employee data via an API call and filters, using a query paramterer, and sorts the returned data for increased ease and efficiency in viewing employee records.
+                        A React-based web application that utilizes an API call to get employee data which can then be filtered or sorted for easy and efficienct viewing of employee records.
                     </p>
 
                     <br></br>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={burger_walkthrough} alt="Burger logger app walkthrough"></img>
 
                     <p className="projectDescription">
-                        A web application for performing CRUD operations to add, update, and delete burgers from your "Bucket" and Devoured It" lists 
+                        A Node.js application for displaying burgers to be or already eaten using CRUD operations to add, update, and delete burgers from a MySQL database.
                     </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Eat-Da-Burger">  GitHub Repo</a>
@@ -54,12 +54,9 @@ const Portfolio = () => {
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={notetaker_walkthrough} alt="Note taker app walkthrough"></img>
 
-                    <ul>
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A sleak and simple note taker application built on Express through which the user can save, view or delete notes.
+                    </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Note-Taker">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://peaceful-cove-68607.herokuapp.com/">  Live Application</a>
@@ -73,12 +70,9 @@ const Portfolio = () => {
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={readme_walkthrough} alt="Readme generator app walkthrough"></img>
 
-                    <ul>
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A command-line application, built using Node, that serves as a dynamic README.md file generator, creating a README.md based on data inputed by the user.
+                    </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/README-Generator">  GitHub Repo</a>
 
