@@ -63,7 +63,7 @@
 } */
 
 .contactContent {
-    display: inline-block;
+    display: block;
     margin-left: auto!important;
     margin-right: auto!important;
     text-align: center;
