@@ -7,6 +7,8 @@ import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
+import { FaNodeJs } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 const Skills = () => {
     return (
@@ -91,19 +93,18 @@ const Skills = () => {
                         <div className="col">
                             <div className="skill-bar-title">
                                 <FaReact size="3em"/>
+                                <p>React</p>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="skill-bar-title">
+                                <FaNodeJs size="3em"/>
                                 <p>NodeJS</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="skill-bar-title">
-                                <i className="fab fa-react fa-3x"></i>
-                                <p>React</p>
-                            </div>
-                        </div>
-
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <i className="fab fa-git fa-3x"></i>
+                                <FaGithub size="3em"/>
                                 <p>Git</p>
                             </div>
                         </div>

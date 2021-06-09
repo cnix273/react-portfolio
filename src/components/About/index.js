@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-import profPic from "../Assets/IMG_1253.jpg";
+import profPic from "../Assets/professional_pic.jpg";
 
 const About = () => {
     return (
