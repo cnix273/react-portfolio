@@ -22,12 +22,9 @@ const Portfolio = () => {
 
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
 
-                    <ul className="projectDescription">
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A React-based web application that utilizes an API call to get employee data which can then be filtered or sorted for easy and efficienct viewing of employee records.
+                    </p>
 
                     <br></br>
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/employee-directory">  GitHub Repo</a>
@@ -41,12 +38,9 @@ const Portfolio = () => {
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={burger_walkthrough} alt="Burger logger app walkthrough"></img>
 
-                    <ul className="projectDescription">
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A Node.js application for displaying burgers to be or already eaten using CRUD operations to add, update, and delete burgers from a MySQL database.
+                    </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Eat-Da-Burger">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://stark-reaches-59593.herokuapp.com/">  Live Application</a>
@@ -60,12 +54,9 @@ const Portfolio = () => {
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={notetaker_walkthrough} alt="Note taker app walkthrough"></img>
 
-                    <ul>
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A sleak and simple note taker application built on Express through which the user can save, view or delete notes.
+                    </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Note-Taker">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://peaceful-cove-68607.herokuapp.com/">  Live Application</a>
@@ -79,12 +70,9 @@ const Portfolio = () => {
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={readme_walkthrough} alt="Readme generator app walkthrough"></img>
 
-                    <ul>
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A command-line application, built using Node, that serves as a dynamic README.md file generator, creating a README.md based on data inputed by the user.
+                    </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/README-Generator">  GitHub Repo</a>
 
