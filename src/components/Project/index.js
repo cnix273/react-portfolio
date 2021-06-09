@@ -22,12 +22,9 @@ const Portfolio = () => {
 
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
 
-                    <ul className="projectDescription">
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A react-based web application that gets saved employee data via an API call and filters, using a query paramterer, and sorts the returned data for increased ease and efficiency in viewing employee records.
+                    </p>
 
                     <br></br>
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/employee-directory">  GitHub Repo</a>
@@ -41,12 +38,9 @@ const Portfolio = () => {
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={burger_walkthrough} alt="Burger logger app walkthrough"></img>
 
-                    <ul className="projectDescription">
-                        <li>Built using React</li>
-                        <li>Populates table with random data from API call to randomuser.me</li>
-                        <li>User can search by name</li>
-                        <li>User can sort tabel alphabetically or reverse alphabetically</li>
-                    </ul>
+                    <p className="projectDescription">
+                        A web application for performing CRUD operations to add, update, and delete burgers from your "Bucket" and Devoured It" lists 
+                    </p>
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Eat-Da-Burger">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://stark-reaches-59593.herokuapp.com/">  Live Application</a>
